@@ -36,7 +36,7 @@ button {
 }
 p {
 
-    background-color: rgb(247, 147, 168);
+    background-color: rgb(255, 170, 189);
     text-align: center;
     font-family : 견고딕;
 
@@ -48,6 +48,19 @@ ul,ol {
     width: 500px;
     margin-left:auto;
     margin-right: auto;
+
+
+
+}
+
+label{
+    display: inline-block;
+    
+}
+
+mark{
+    background-color: rgb(246, 255, 169);
+    color : black;
 
 
 
