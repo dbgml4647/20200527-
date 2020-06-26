@@ -1,5 +1,6 @@
 body{
-    background-color : rgb(226, 225, 226);
+    background-color : rgb(255, 245, 245);
+    opacity: 0.7;
     
 
 
@@ -8,12 +9,28 @@ div {
     font-size:12pt; 
     text-align: center;
     margin : auto;
-    color: rgb(151, 148, 151); 
+    color: rgb(136, 57, 100);
     font-family: 나눔고딕;
 }
-h1,h2{
-    color: rgb(107, 106, 107); 
+h1,h2,h3,h4{
+    color: rgb(117, 9, 81); 
 
+}
+
+a{
+    color:rgb(148, 36, 120);
+    text-decoration: none;
+
+
+
+}
+
+button {
+    background-color: rgb(255, 196, 196);
+    border: 0;
+    outline :0;
+    border-radius: 12px;
+    opacity: 0.8;
 
 
 
