@@ -109,7 +109,7 @@ h2{
     font-size: 30px;
     font-family: 'Gaegu', cursive;
     color: var(--primary-color);
-    transform: translateY(-600px);
+    transform: translateY(-500px);
     animation: 1.2s slideIn ease-in-out forwards 1s;
     z-index: 10;
     opacity: 0;
@@ -170,6 +170,7 @@ h2{
     height: auto;
     position:absolute;
     left:400px;
+    right: 400px;
     z-index:1;
     transform: translateY(-1000px);
     animation: 1.2s slideIn ease-in-out forwards 1s;
@@ -190,7 +191,9 @@ table, tr, td {
   border-collapse:collapse;
   empty-cells: empty;
   text-align: center;
-
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
 
       
 
