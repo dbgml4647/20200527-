@@ -200,5 +200,36 @@ table, tr, td {
 
 /* 선택자 실습 필요 */
 
+ label[for="python"]
+{
+  color: rgb(240, 20, 20); 
+  font-size: larger;
+  font-weight: bold;
 
+}
 
+label[for="Java"]
+{
+  color: rgb(240, 20, 20); 
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+label[for="HTML"]
+{
+  color: rgb(240, 20, 20); 
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+label[for="CSS"]
+{
+  color: rgb(240, 20, 20); 
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+/* 선택자 실습 필요 */
