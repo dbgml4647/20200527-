@@ -154,11 +154,13 @@ h2{
     }
   }
 
+/* 멀티미디어 지정 */
+
   img[class="title_me"]{
 
     display: block;
     border-radius: 30%;
-    max-width:500px;
+    max-width:100%; /*가변 이미지 지정*/
     max-height:500px;
     width: auto;
     height: auto;
@@ -168,18 +170,31 @@ h2{
     z-index:1;
     transform: translateY(-1000px);
     animation: 1.2s slideIn ease-in-out forwards 1s;
-
-
-
+  }
+  img[class="arrow"]{
+    max-width: 100%; /*가변 이미지 지정*/
+    text-align: center;
+    align-content: center;
+    padding : 25px;
+  
 
   }
-
+  
 audio {
   padding:  15px 10px;
   text-transform: uppercase;
   text-decoration: none;
   display:inline-block;
 }
+
+video[class="middle_video"]
+{
+  max-width:100%;/*가변 이미지 지정*/
+
+
+}
+/* 멀티미디어 지정 */
+
 
 /* table */
 
@@ -237,15 +252,5 @@ div[class="bottom_bar"]{
    align-content: center;
 }
 
-img[class="arrow"]{
-  text-align: center;
-  align-content: center;
-  padding : 25px;
-
-
-
-
-
-}
 
 /* 선택자 실습 필요 */
