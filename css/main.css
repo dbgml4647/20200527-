@@ -179,7 +179,21 @@ h2{
   
 
   }
-  
+  span[class="my_personality_pic"]{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position : fixed, 
+    
+
+
+
+
+
+  }
+
+
+
+
 audio {
   padding:  15px 10px;
   text-transform: uppercase;
@@ -189,7 +203,7 @@ audio {
 
 video[class="middle_video"]
 {
-  max-width:100%;/*가변 이미지 지정*/
+  max-width:100%;
 
 
 }
