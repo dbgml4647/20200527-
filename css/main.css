@@ -264,7 +264,7 @@ div[class="my_class"]{
   padding: 50px;
   background-color: rgb(255, 249, 249);
   margin: 0px auto;
-  height: 500px;
+  height: 1000px;
   width: 1000px;
 
 
@@ -298,20 +298,45 @@ hr[class="project_line_middle"]
   
  }
  
- ul[class="my_lecture"]
+ ol[class="my_lecture"]
 {
+  
+  /*list-style-image: url("C:/Users/김민규/Desktop/졸업후/블로그업로드/HTML+CSS/images/checkmark.png");*/
+  list-style-position: unset;
+  align-content: center;
+  align-items: center;
+  margin: 0px auto;
   font-family: 'Nanum Gothic', sans-serif;
   letter-spacing: normal;
-  text-shadow: bisque;
   font-size: small;
   color: black;
   font-weight: 100; /*글자 굵기 설정*/
-  line-height: 25px;
-  
+  line-height: 30px;
   list-style-type: none;
+  
+  
 
 
 
 } 
  
+li[class="my_lecture_in"]{
+
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 800;
+
+
+
+}
+
+li[class="my_lecture_out"]{
+
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 800;
+
+
+
+}
+
+
  /* 선택자 실습 필요 */
