@@ -287,4 +287,31 @@ hr[class="project_line"]
 
   
 }
-/* 선택자 실습 필요 */
+
+hr[class="project_line_middle"]
+{
+  margin : 0px auto;
+  align-content: center;
+  width: 400px;
+  
+  
+  
+ }
+ 
+ ul[class="my_lecture"]
+{
+  font-family: 'Nanum Gothic', sans-serif;
+  letter-spacing: normal;
+  text-shadow: bisque;
+  font-size: small;
+  color: black;
+  font-weight: 100; /*글자 굵기 설정*/
+  line-height: 25px;
+  
+  list-style-type: none;
+
+
+
+} 
+ 
+ /* 선택자 실습 필요 */
