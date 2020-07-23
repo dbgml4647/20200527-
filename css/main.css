@@ -21,7 +21,6 @@ div{
   color: rgb(136, 57, 100);
   font-family: 'Gaegu', cursive;
   text-align: center;
-  align-content: center;
   
 }
 
@@ -256,7 +255,7 @@ div[class="my_class"]{
   padding: 50px;
   background-color: rgb(255, 245, 245);
   margin: 0px auto;
-  height: 2000px;
+  height: 3000px;
   width: 1000px;
 
 
@@ -333,16 +332,14 @@ li[class="my_lecture_out"]{
 
 div.project_block_1,
 div.project_block_2,
-div.project_block3, 
+div.project_block_3, 
 div.project_block_4,
-div.project_block_5,
-div.project_block_6,
-div.project_block_7
+div.project_block_5
 {
 
   background-color: white;
   box-shadow: 3px 3px 3px 3px black;
-  padding:80px;
+  padding:15px;
   width: 700px;
   height: 300px;
 
@@ -353,7 +350,7 @@ div.project_block_7
 img[class="project_img"]
 {
 
-  margin : 50px;
+  margin : 15px;
 
 
 
