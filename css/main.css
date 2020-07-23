@@ -337,11 +337,19 @@ li[class="my_lecture_out"]{
 
 
 }
+/* project 선언 */
 
-div[class="project_block"]
+div.project_block_1,
+div.project_block_2,
+div.project_block3, 
+div.project_block_4,
+div.project_block_5,
+div.project_block_6,
+div.project_block_7
 {
 
   background-color: white;
+  box-shadow: 3px 3px 3px 3px black;
   padding:80px;
   width: 700px;
   height: 300px;
@@ -350,4 +358,12 @@ div[class="project_block"]
 
 }
 
- /* 선택자 실습 필요 */
+img[class="project_img"]
+{
+
+  margin : 50px;
+
+
+
+}
+
