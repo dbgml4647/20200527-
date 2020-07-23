@@ -15,14 +15,7 @@ body{
   padding-top: 75px;
 
 }
-div{
-  font-size:12pt; 
-  margin : auto;
-  color: rgb(136, 57, 100);
-  font-family: 'Gaegu', cursive;
-  text-align: center;
-  
-}
+
 
 h1,h2,h3,h4{
   color: rgb(61, 0, 48); 
@@ -33,7 +26,7 @@ h1,h2,h3,h4{
 }
 h2{
   color: rgb(2, 0, 3);
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Gaegu', cursive;
   font-weight: 700;
 
 
@@ -348,6 +341,7 @@ div.project_block_5
   padding:15px;
   width: 700px;
   height: 300px;
+  display: inline-block;
 
 
 
