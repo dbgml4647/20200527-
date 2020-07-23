@@ -264,7 +264,7 @@ div[class="my_class"]{
   padding: 50px;
   background-color: rgb(255, 245, 245);
   margin: 0px auto;
-  height: 1000px;
+  height: 2000px;
   width: 1000px;
 
 
@@ -338,5 +338,16 @@ li[class="my_lecture_out"]{
 
 }
 
+div[class="project_block"]
+{
+
+  background-color: white;
+  padding:80px;
+  width: 700px;
+  height: 300px;
+
+
+
+}
 
  /* 선택자 실습 필요 */
