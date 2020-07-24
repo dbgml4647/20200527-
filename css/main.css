@@ -46,11 +46,11 @@ p {
   font-family: 'Gaegu', cursive;
 }
 
-ul,ol {
+ul,ol,li {
     width: 500px;
     margin-left:auto;
     margin-right: auto;
-    
+    font-family: 'Gaegu', cursive;
 
 
 
@@ -169,21 +169,7 @@ label{
   
 
   }
-  span[class="my_personality_pic"]{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    position : fixed, 
-    
-
-
-
-
-
-  }
-
-
-
-
+ 
 audio {
   padding:  15px 10px;
   text-transform: uppercase;
@@ -254,7 +240,7 @@ div[class="my_class"]{
   padding: 50px;
   background-color: rgb(255, 245, 245);
   margin: 0px auto;
-  height: 3000px;
+  height: 3100px;
   width: 1000px;
 
 
@@ -337,7 +323,7 @@ div.project_block_5
 {
 
   background-color: white;
-  box-shadow: 3px 3px 3px 3px black;
+  box-shadow: 2px 2px 2px 2px black;
   padding:15px;
   width: 700px;
   height: 300px;
@@ -356,3 +342,33 @@ img[class="project_img"]
 
 }
 
+div.project_block_6{
+
+  display: inline-block;
+  padding: 15px;
+  margin: 15px;
+
+
+
+
+}
+
+img.b6_1,
+img.b6_3,
+img.b6_5
+{
+
+  margin: 5px;
+  float: inline-start;
+
+
+
+}
+img.b6_2
+img.b6_4, 
+img.b6_6
+{
+  
+  float: inline-end;
+
+}
