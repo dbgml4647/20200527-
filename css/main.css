@@ -19,15 +19,17 @@ body{
 
 h1,h2,h3,h4{
   color: rgb(61, 0, 48); 
-  font-family: 'Gaegu', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
     
 
 
 }
 h2{
   color: rgb(2, 0, 3);
-  font-family: 'Gaegu', cursive;
-  font-weight: 800;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight:400;
+  font-size : medium;
 
 
 }
@@ -43,7 +45,8 @@ a{
 p {
 
   text-align: center;
-  font-family: 'Gaegu', cursive;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: medium;
 }
 
 ul,ol,li {
@@ -161,14 +164,7 @@ label{
     transform: translateY(-1000px);
     animation: 1.2s slideIn ease-in-out forwards 1s;
   }
-  img[class="arrow"]{
-    max-width: 100%; /*가변 이미지 지정*/
-    text-align: center;
-    align-content: center;
-    padding : 25px;
-  
 
-  }
  
 audio {
   padding:  15px 10px;
@@ -177,31 +173,7 @@ audio {
   display:inline-block;
 }
 
-video[class="middle_video"]
-{
-  max-width:100%;
 
-
-}
-/* 멀티미디어 지정 */
-
-
-/* table */
-
-table, tr, td {
-  caption-side: 나의 성격 설명하기;
-  width: 1200px;
-  height: 200px;
-  border: 3px dashed #ffb6ba;
-  border-collapse:collapse;
-  empty-cells: empty;
-  text-align: center;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
-
-      
-}
 
 /* 선택자 실습 필요 */
 
@@ -251,19 +223,6 @@ div[class="bottom_bar"]{
    align-content: center;
 }
 
-hr[class="project_line"]
-{
-  
-  background-color :brown;
-  color: blue;
-  margin: 0px auto;
-  align-content: center;
-  width: 500px;
-
-
-  
-}
-
 hr[class="project_line_middle"]
 {
   margin : 0px auto;
@@ -274,25 +233,6 @@ hr[class="project_line_middle"]
   
  }
  
- ol[class="my_lecture"]
-{
-  
-  /*list-style-image: url("C:/Users/김민규/Desktop/졸업후/블로그업로드/HTML+CSS/images/checkmark.png");*/
-  list-style-position: unset;
-  font-family: 'Nanum Gothic', sans-serif;
-  letter-spacing: normal;
-  font-size: large;
-  color: black;
-  font-weight: 100; /*글자 굵기 설정*/
-  line-height: 30px;
-  list-style-type: none;
-  
-  
-  
-
-
-
-} 
 
 /* project 선언 */
 
@@ -337,7 +277,8 @@ img[class="project_img"]
 
 div.project_block_1,
 div.project_block_3,
-div.project_block_5{
+div.project_block_5
+{
 
   
  float: left;
@@ -363,24 +304,40 @@ div.project_block_6{
 
 img.b6_1,
 img.b6_3,
-img.b6_5
+img.b6_5,
+img.b6_7
 {
 
   margin: 5px;
   float: inline-start;
-  opacity: 0.3;
+  opacity: 0.7;
 
 
 
 }
 img.b6_2
 img.b6_4, 
-img.b6_6
+img.b6_6,
+img.b6_8
 {
   
+  margin: 5px;
   float: inline-end;
-  opacity: 0.3;
+  opacity: 0.7;
 
 
 }
 
+img[class="b6_2"]
+{
+
+  opacity: 0.7;
+
+}
+
+img[class="b6_4"]
+{
+
+  opacity: 0.7;
+
+}
