@@ -36,8 +36,8 @@
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: rgb(255, 175, 175);
-    border: 4px solid #ffffff;
+    background-color: rgb(253, 253, 253);
+    border: 4px solid #f7d0d0;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -62,7 +62,7 @@
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid rgb(255, 198, 198);
+    border: medium solid rgb(255, 245, 245);
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
   }
@@ -78,7 +78,7 @@
     left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent rgb(255, 213, 213) transparent transparent;
+    border-color: transparent rgb(252, 242, 242) transparent transparent;
   }
   
   /* Fix the circle for time_containers on the right side */
@@ -89,7 +89,7 @@
   /* The actual content */
   .time_content {
     padding: 20px 30px;
-    background-color: rgb(247, 223, 223);
+    background-color: rgb(255, 247, 247);
     position: relative;
     border-radius: 6px;
   }
@@ -111,9 +111,9 @@
   /* Make sure that all arrows are pointing leftwards */
     .time_container::before {
       left: 60px;
-      border: medium solid rgb(255, 80, 80);
+      border: medium solid rgb(255, 255, 255);
       border-width: 10px 10px 10px 0;
-      border-color: transparent rgb(255, 202, 202) transparent transparent;
+      border-color: transparent rgb(253, 231, 231) transparent transparent;
     }
   
   /* Make sure all circles are at the same spot */

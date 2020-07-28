@@ -27,7 +27,7 @@ h1,h2,h3,h4{
 h2{
   color: rgb(2, 0, 3);
   font-family: 'Gaegu', cursive;
-  font-weight: 700;
+  font-weight: 800;
 
 
 }
@@ -236,11 +236,11 @@ label[for="CSS"]
   font-weight: bold;
 
 }
-div[class="my_class"]{
+div[class="my_class"]
+{
   padding: 50px;
-  background-color: rgb(255, 245, 245);
   margin: 0px auto;
-  height: 1500px;
+  height: 1200px;
   width: 1000px;
 
 
