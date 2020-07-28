@@ -240,7 +240,7 @@ div[class="my_class"]{
   padding: 50px;
   background-color: rgb(255, 245, 245);
   margin: 0px auto;
-  height: 2300px;
+  height: 1500px;
   width: 1000px;
 
 
@@ -281,35 +281,19 @@ hr[class="project_line_middle"]
   list-style-position: unset;
   font-family: 'Nanum Gothic', sans-serif;
   letter-spacing: normal;
-  font-size: small;
+  font-size: large;
   color: black;
   font-weight: 100; /*글자 굵기 설정*/
   line-height: 30px;
   list-style-type: none;
   
   
+  
 
 
 
 } 
- 
-li[class="my_lecture_in"]{
 
-  font-family: 'Nanum Gothic', sans-serif;
-  font-weight: 800;
-
-
-
-}
-
-li[class="my_lecture_out"]{
-
-  font-family: 'Nanum Gothic', sans-serif;
-  font-weight: 800;
-
-
-
-}
 /* project 선언 */
 
 
@@ -329,9 +313,9 @@ div.project_block_5,
 div.project_block_6
 {
 
-  background-color: white;
-  box-shadow: 2px 2px 2px 2px black;
-  padding:15px;
+  background-color: rgb(255, 255, 255);
+  margin: 15px;
+  padding:20px;
   width: 400px;
   height: 300px;
   align-content: center;
@@ -357,7 +341,7 @@ div.project_block_5{
 
   
  float: left;
- margin: 5px;
+ margin: 10px;
 
 
 
@@ -370,7 +354,7 @@ div.project_block_4,
 div.project_block_6{
 
  float: right;
- margin: 5px;
+ margin: 10px;
 
 
 
@@ -384,6 +368,7 @@ img.b6_5
 
   margin: 5px;
   float: inline-start;
+  opacity: 0.3;
 
 
 
@@ -394,5 +379,8 @@ img.b6_6
 {
   
   float: inline-end;
+  opacity: 0.3;
+
 
 }
+
