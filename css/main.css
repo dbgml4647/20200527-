@@ -253,7 +253,13 @@ mark[class="mark_blue"]
 div[class="main_project"]
 {
 
+  width: auto;
   display: inline-block;
+  background-color:rgb(253, 231, 231) ;
+
+  border: medium solid rgb(255, 255, 255);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent rgb(253, 231, 231) transparent transparent;
 
 
 }
@@ -282,7 +288,7 @@ div.project_block_6
 img[class="project_img"]
 {
 
-  margin : 15px;
+  margin : 10px;
 
 
 
