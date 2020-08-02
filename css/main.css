@@ -378,3 +378,12 @@ div.reference{
 
 
 }
+
+/* 실험용 input */
+
+input[class="input_form"]
+{
+
+  font-size: 50px;
+
+}
