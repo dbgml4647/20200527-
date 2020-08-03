@@ -2,7 +2,7 @@ html{
   
   scroll-behavior: smooth;
   transition-duration: 0.2s;
-  background-color: blanchedalmond;
+  background-color: rgb(255, 237, 212);
 
 
 }
@@ -432,3 +432,8 @@ input[class="input_form"]
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+
+
