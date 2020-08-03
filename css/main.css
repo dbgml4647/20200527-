@@ -395,7 +395,7 @@ input[class="input_form"]
 
 
    /* The Modal (background) */
-   .modal {
+   .modal_2 {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -414,17 +414,20 @@ input[class="input_form"]
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */                          
+    width: 80%; /* Could be more or less, depending on screen size */                          
 }
 /* The Close Button */
-.close {
+.close_1,
+.close_2 {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-.close:hover,
-.close:focus {
+.close_1:hover,
+.close_1:focus,
+.close_2:hover,
+.close_2:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;

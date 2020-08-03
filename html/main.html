@@ -207,8 +207,7 @@
 <br><br>
 <div class= "main_project">
     <div class="project_block_1"
-         onmouseenter="zoomIn(event)"
-         onmouseleave="zoomOut(event)">
+         id="project_img_1">
     <h2>한이음 ICT 멘토링 AI 기반 챗봇 여행지 추천 서비스 개발</h2>
     <img class="project_img" 
          src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\한이음.jpg" 
@@ -222,8 +221,7 @@
     <br>
    </div>
     <div class="project_block_2"
-         onmouseenter="zoomIn(event)"
-         onmouseleave="zoomOut(event)">
+         id="project_img_2">
     <h2>데이터베이스 강의 - 술 게시판 개발</h2>
     <img class="project_img" 
         src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\데이터베이스 전체.jpg" 
@@ -324,18 +322,31 @@
 </div>
 <br><br>
 
-   <button id="myBtn">Open Modal</button>
- 
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
- 
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>                                                               
-        <p>Some text in the Modal..</p>
-      </div>
- 
+<button id="myBtn">Open Modal</button>
+  <!-- The Modal -->
+  <div id="myModal_1" class="modal_1">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close_1">&times;</span>
+      <img src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\한이음.jpg"></img>                                                              
+      <p>Some text in the Modal..</p>
     </div>
+
+
+
+
+
+  </div>
+ <div id="myModal_2" class="modal_2">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close_2">&times;</span>
+      <img src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\데이터베이스 전체.jpg"></img>                                                              
+      <p>MySQL 을 이용해 DB 설계</p>
+    </div>
+
+  </div>
+
 
 
 
@@ -366,6 +377,7 @@
 </audio>
 </div>
 <script src="../js/main.js"></script>
+<script src="../js/modal.js"></script>
 </body>
 
 </html>
