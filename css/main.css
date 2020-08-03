@@ -2,7 +2,7 @@ html{
   
   scroll-behavior: smooth;
   transition-duration: 0.2s;
-  background-color: rgb(255, 237, 212);
+  background-color: rgb(255, 244, 228);
 
 
 }
@@ -255,11 +255,11 @@ div[class="main_project"]
 
   width: auto;
   display: inline-block;
-  background-color:rgb(253, 231, 231) ;
+  background-color:rgb(255, 249, 249) ;
 
   border: medium solid rgb(255, 255, 255);
   border-width: 10px 10px 10px 0;
-  border-color: transparent rgb(253, 231, 231) transparent transparent;
+  border-color: transparent rgb(255, 255, 255) transparent transparent;
 
 
 }

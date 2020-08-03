@@ -43,7 +43,7 @@ function zoomIn(event) {
 
   }
 
-  function zoomOut(event) {
+function zoomOut(event) {
     event.target.style.transform = "scale(1)";
     event.target.style.zIndex = 0;
     event.target.style.transition = "all 0.3s";
@@ -52,8 +52,8 @@ function zoomIn(event) {
 
 function onchangecolor(event){
 
-    document.body.style.background= pink;
-
+    
+k;
 
 
 }
@@ -66,10 +66,9 @@ function onchangecolor(event){
 function hover_in(event)
 {
 
-event.target.style.opacity=0.5;
-event.target.style.transition = "all 0.3s";
-document.style.display= "block"
-
+event.target.style.opacity=0.2;
+event.target.style.zIndex = 0;
+event.target.style.transition = "all 0.1s";
 
 
 }
