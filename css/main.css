@@ -289,6 +289,7 @@ img[class="project_img"]
 {
 
   margin : 10px;
+ 
 
 
 
@@ -302,6 +303,7 @@ div.project_block_5
   
  float: left;
  margin: 10px;
+ opacity: 0.4;
 
 
 
@@ -315,7 +317,7 @@ div.project_block_6{
 
  float: right;
  margin: 10px;
-
+ opacity: 0.4;
 
 
 

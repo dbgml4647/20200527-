@@ -21,7 +21,7 @@ else
 
 //prompt
 
-function promptfunc(){
+/*function promptfunc(){
     
     if(prompt('이름은 무엇인가요?') === "유희")
     {
@@ -33,7 +33,7 @@ function promptfunc(){
     }
 
 }
-
+*/
 function zoomIn(event) {
     event.target.style.transform = "scale(1.5)";
     event.target.style.zIndex = 0;
@@ -66,7 +66,7 @@ k;
 function hover_in(event)
 {
 
-event.target.style.opacity=0.2;
+event.target.style.opacity=1;
 event.target.style.zIndex = 0;
 event.target.style.transition = "all 0.1s";
 
@@ -77,8 +77,8 @@ event.target.style.transition = "all 0.1s";
 function hover_out(event)
 {
 
-event.target.style.opacity=1;
-event.target.style.transition = "all 0.3s"
+event.target.style.opacity=0.4;
+event.target.style.transition = "all 0.1s"
 
 
 
