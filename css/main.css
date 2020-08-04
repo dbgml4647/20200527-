@@ -82,7 +82,7 @@ label{
   }
   :root {
     --primary-color: #000000;
-    --secondary-color: #ffe3f5;
+    --secondary-color: rgb(255, 240, 240);
     --complimentary-color: #2E2473;
   }
   
@@ -504,5 +504,20 @@ input[class="input_form"]
   to {opacity: 1}
 }
 
+
+
+.ability_block{
+
+  background-color: rgb(255, 240, 240);
+  margin: 15px;
+  padding: 30px;
+  width: 800px;
+  height: 300px;
+  align-content: center;
+  align-items: center;
+  display: inline-block;
+  z-index: 0;
+
+}
 
 
