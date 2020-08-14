@@ -2,7 +2,7 @@ html{
   
   scroll-behavior: smooth;
   transition-duration: 0.2s;
-  background-color: rgb(255, 235, 204);
+  background-color: rgb(255, 255, 255);
 
 
 }
@@ -31,6 +31,17 @@ h1[class="hangul"]
   font-weight:700;
 
 }
+
+h1[class="ability_text"]{
+
+  color: rgb(0, 0, 0); 
+  font-family: 'Gaegu', cursive;
+  font-weight:700;
+
+
+}
+
+
 
 h2{
   color: rgb(2, 0, 3);
@@ -360,43 +371,42 @@ input[class="input_form"]
 
 
 
-   /* The Modal (background) */
-   .modal_2 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
+/* Modal Content */
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */                          
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
 }
+
 /* The Close Button */
-.close_1,
-.close_2 {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
-.close_1:hover,
-.close_1:focus,
-.close_2:hover,
-.close_2:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* 슬라이드 */
@@ -508,7 +518,8 @@ input[class="input_form"]
 
 .ability_block{
 
-  background-color: rgb(255, 240, 240);
+  background-color: rgb(255, 244, 244);
+  border-radius: 30px;
   margin: 15px;
   padding: 30px;
   width: 800px;

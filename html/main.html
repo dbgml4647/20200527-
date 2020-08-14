@@ -44,54 +44,58 @@
 <div class="overlay"></div>
 </div>
 <!--Main title-->
-
-
+<h1> 안녕하세요? 저는 컴퓨터를 사랑하는 "류" 입니다! </h1>
+<br>
 <div id = "ability"> 
 <div class="ability_block">
-<h1>OS</h1>
+<h1 class="ability_text"> OS 와 Framework</h1>
 <br>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\windows.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\linux.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\android.jpg" alt=" " width = 100, height= 100>
+<img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\springboot.jpg" alt=" " width = 100, height= 100>
+<br><br>
+<p> 대학교 4년 동안, 다양한 운영체제를 접하며 개발 능력을 키워왔습니다!
 </div>
 <br><br>
 
 <div class="ability_block">
-<h1>Algorithm Skills</h1>
+<h1 class="ability_text">Algorithm Skills</h1>
 <br>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\java.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\python.jpg" alt=" " width = 100, height= 100>
+<img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\c.jpg" alt=" " width = 100, height= 100>
+<br><br>
+<p> C언어, 자바, 파이썬 등 기초적인 프로그래밍 언어를 익히면서, 경험을 쌓았습니다. 
 </div>
 <br><br>
 <div class="ability_block">
-<h1>Front-end Skills</h1>
+<h1 class="ability_text">Front-end Skills</h1>
 <br>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\html.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\css.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\javascript.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\react.jpg" alt=" " width = 100, height= 100>
+<br><br>
+<p> <mark>프론트 계열은 제가 가장 사랑하는 분야이자, 가장 자신 있는 부분이기도 합니다!</mark>  
 </div>
 <br><br>
 <div class="ability_block">
-<h1>Database & Embedded</h1>
+<h1 class="ability_text">Database & Embedded</h1>
 <br>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\google.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\sql.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\mongodb.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\pi.jpg" alt=" " width = 100, height= 100>
+<br><br>
+<p> 많은 교외 교육을 다니면서, 교내에서 배우지 못한 지식 또한 쌓았습니다!  
 </div>
 <br><br>
 </div>
-<!--1. Ability-->
 
 
-
-<!--2. Project-->
-<!--멀티미디어 실습 -->
-
-<br><br>
 <!--Time Line-->
-<h1> 저는 이러한 삶을 살아왔어요  </h1>
+<h1> 먼저 제가 살아온 삶은요...  </h1>
 <br>
 <div id= "history" class="timeline">
   <div class="time_container left">
@@ -174,6 +178,7 @@
          onMouseOut="this.style.backgroundColor=''">
       <h2>2020</h2>
       <p> <mark class="mark_blue">(02)금오공과대학교 컴퓨터공학과 졸업</mark> </p>
+      <p> (02) 3주 일본 간사이 지역 & 나고야 홀로 여행 </p>
       <p> 포트폴리오 제작 ing~(HTML,CSS,JS 기반) </p>
       <p> 개인 github 운영 중 </p>
       <p> <mark class = "mark_blue">외국어 공부 & IT 이야기 블로그 운영 </mark></p>
@@ -190,13 +195,14 @@
 <!--2. Project-->
 <br>
 <div class="my_class">
-<h1 class="hangul"> 저의 역량을 한 번 보실래요? </h1>
+<h1 class="hangul"> 제 추억이 담겨져 있는 프로젝트들입니다 !</h1>
 <br><br>
 <div class= "main_project">
     <div class="project_block_1"
          id="project_img_1"
          onmouseenter="hover_in(event)"
-         onmouseleave="hover_out(event)">
+         onmouseleave="hover_out(event)"
+         onmousedown="reply_click(this.id)">
     <h2>한이음 ICT 멘토링 AI 기반 챗봇 여행지 추천 서비스 개발</h2>
     <img class="project_img" 
          src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\한이음.jpg" 
@@ -212,7 +218,8 @@
     <div class="project_block_2"
          id="project_img_2"
          onmouseenter="hover_in(event)"
-         onmouseleave="hover_out(event)">
+         onmouseleave="hover_out(event)"
+         onmousedown="reply_click(this.id)">
     <h2>데이터베이스 강의 - 술 게시판 개발</h2>
     <img class="project_img" 
         src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\데이터베이스 전체.jpg" 
@@ -226,8 +233,10 @@
     </div>
 
    <div class="project_block_3"
+         id="project_img_3"
         onmouseenter="hover_in(event)"
-        onmouseleave="hover_out(event)">
+        onmouseleave="hover_out(event)"
+        onmousedown="reply_click(this.id)">
    <h2>대구 글로벌 이노베이션 페스타 참가- gazebo를 이용한 로봇 개발</h2>
    <img class="project_img" 
         src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\메이커톤 사진.jpg" 
@@ -240,8 +249,10 @@
    </div>
     
     <div class="project_block_4"
+         id="project_img_4"
          onmouseenter="hover_in(event)"
-         onmouseleave="hover_out(event)">
+         onmouseleave="hover_out(event)"
+         onmousedown="reply_click(this.id)">
     <h2>지역선도대학 육성 사업 SIG - 음성인식 조명 시스템 개발</h2>
     <img class="project_img" 
          src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\칼디 발표 2.jpg" 
@@ -254,8 +265,10 @@
     </div>
 
     <div class="project_block_5"
+         id="project_img_5"
          onmouseenter="hover_in(event)"
-         onmouseleave="hover_out(event)">
+         onmouseleave="hover_out(event)"
+         onmousedown="reply_click(this.id)">
     <h2>캡스톤 디자인 - 반려동물 케어를 위한 어플리케이션 </h2>
     <img class="project_img" 
          src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\캡스톤 전체.jpg" 
@@ -268,8 +281,10 @@
     </div>
 
     <div class="project_block_6"
+        id="project_img_6"
          onmouseenter="hover_in(event)"
-         onmouseleave="hover_out(event)">
+         onmouseleave="hover_out(event)"
+         onmousedown="reply_click(this.id)">
     <h2>기상기후 청년 사업 - 아이디어 공모전 </h2>
     <img class="project_img" 
          src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\비움.jpg" 
@@ -418,33 +433,17 @@
 </div>
 <br><br>
 
+
 <button id="myBtn">Open Modal</button>
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
-
-  <!-- The Modal -->
-  <div id="myModal_1" class="modal_1">
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close_1">&times;</span>
-      <img src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\한이음.jpg"></img>                                                              
-      <p>Some text in the Modal..</p>
-    </div>
-
-
-
-
-
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
   </div>
- <div id="myModal_2" class="modal_2">
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close_2">&times;</span>
-      <img src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\데이터베이스 전체.jpg"></img>                                                              
-      <p>MySQL 을 이용해 DB 설계</p>
-    </div>
-
-  </div>
-
+</div>
 
 
 
