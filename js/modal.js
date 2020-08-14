@@ -4,23 +4,22 @@
 
 function reply_click(clicked_id)
 {
-    event.target.style.opacity=1;
-    event.target.style.zIndex = 0;
-    event.target.style.transition = "all 0.1s";
-
+    
     //alert(clicked_id);
     var click_img = clicked_id;
+    var click_modal = clicked_id+ "modal";
+    var closeitem = clicked_id + "close";
 
     //alert(click_img);
 
      // Get the modal
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById(click_modal);
 
     // Get the button that opens the modal
     var btn = document.getElementById(click_img);
 
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    var span = document.getElementsByClassName(closeitem)[0];
 
 
     

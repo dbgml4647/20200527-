@@ -395,19 +395,38 @@ input[class="input_form"]
 }
 
 /* The Close Button */
-.close {
+.project_img_1close,
+.project_img_2close,
+.project_img_3close,
+.project_img_4close,
+.project_img_5close,
+.project_img_6close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.project_img_1close:hover,
+.project_img_1close:focus,
+.project_img_2close:hover,
+.project_img_2close:focus
+.project_img_3close:hover,
+.project_img_3close:focus,
+.project_img_4close:hover,
+.project_img_4close:focus,
+.project_img_5close:hover,
+.project_img_5close:focus,
+.project_img_6close:hover,
+.project_img_6close:focus
+ {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
+
+
+
 
 /* 슬라이드 */
 * {box-sizing:border-box}
