@@ -395,36 +395,43 @@ input[class="input_form"]
 }
 
 /* The Close Button */
-.project_img_1close,
-.project_img_2close,
-.project_img_3close,
-.project_img_4close,
-.project_img_5close,
-.project_img_6close {
+.project_img_1_close,
+.project_img_2_close,
+.project_img_3_close,
+.project_img_4_close,
+.project_img_5_close,
+.project_img_6_close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.project_img_1close:hover,
-.project_img_1close:focus,
-.project_img_2close:hover,
-.project_img_2close:focus
-.project_img_3close:hover,
-.project_img_3close:focus,
-.project_img_4close:hover,
-.project_img_4close:focus,
-.project_img_5close:hover,
-.project_img_5close:focus,
-.project_img_6close:hover,
-.project_img_6close:focus
+.project_img_1_close:hover,
+.project_img_1_close:focus,
+.project_img_2_close:hover,
+.project_img_2_close:focus
+.project_img_3_close:hover,
+.project_img_3_close:focus,
+.project_img_4_close:hover,
+.project_img_4_close:focus,
+.project_img_5_close:hover,
+.project_img_5_close:focus,
+.project_img_6_close:hover,
+.project_img_6_close:focus
  {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
+/* 3번 모달만 버그때문에 따로 설정 시킴 */
+.project_img_3_close:hover,
+.project_img_3_close:focus{
 
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
 

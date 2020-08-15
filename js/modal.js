@@ -7,8 +7,8 @@ function reply_click(clicked_id)
     
     //alert(clicked_id);
     var click_img = clicked_id;
-    var click_modal = clicked_id+ "modal";
-    var closeitem = clicked_id + "close";
+    var click_modal = clicked_id+ "_modal";
+    var closeitem = clicked_id + "_close";
 
     //alert(click_img);
 
