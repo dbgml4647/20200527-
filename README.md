@@ -4,5 +4,5 @@
 * 지식 넣기 - 마구마구 
 :cupid: 
 
-* 사용 언어 : HTML, CSS, JS :happy:
-* 사용 API : Google Maps API :happy:
+* 사용 언어 : HTML, CSS, JS :heart:
+* 사용 API : Google Maps API :heart:
