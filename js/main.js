@@ -128,3 +128,12 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function initMap() {
+  // The location of Uluru
+  var my_location = {lat: 36.0319404, lng: 129.3381051};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 7, center: my_location});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: my_location, map: map});
+}
