@@ -131,9 +131,43 @@ function showSlides(n) {
 function initMap() {
   // The location of Uluru
   var my_location = {lat: 36.0319404, lng: 129.3381051};
+  var my_university = {lat: 36.1460668, lng: 128.3912488};
   // The map, centered at Uluru
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 7, center: my_location});
   // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: my_location, map: map});
+  //var marker2 = new google.maps.Marker({position : my_university, map:map});
+
+  var marker1 = new google.maps.Marker({
+    position: new google.maps.LatLng(36.0319404, 129.3381051),
+    map: map,
+    title: 'My House',
+    icon: {
+      url: 'http://maps.google.com/mapfiles/ms/icons/blue.png',
+      labelOrigin: new google.maps.Point(50,50)
+    },
+    label: {
+      text: 'Home',
+      color: 'black'
+    }
+  });
+
+  var marker2 = new google.maps.Marker({
+    position: new google.maps.LatLng(36.1460668, 128.3912488),
+    map: map,
+    title: 'My House',
+    icon: {
+      url: 'http://maps.google.com/mapfiles/ms/icons/green.png',
+      labelOrigin: new google.maps.Point(100,100)
+    },
+    label: {
+      text: 'Home',
+      color: 'black'
+    }
+  });
+
+
+
+
+
 }
