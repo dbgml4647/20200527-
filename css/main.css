@@ -10,7 +10,7 @@ html{
 body{
   
   background-color : rgb(255, 255, 255);
-  opacity: 0.8;
+  opacity: 0.9;
   text-align: center;
   padding-top: 75px;
 
@@ -565,3 +565,5 @@ input[class="input_form"]
   height: 500px;
   background-color: grey;
 }
+
+
