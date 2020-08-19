@@ -17,7 +17,7 @@ body{
 }
 
 h1,h3,h4{
-  color: rgb(61, 0, 48); 
+  color: rgb(5, 0, 4); 
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
     
@@ -94,12 +94,12 @@ label{
   :root {
     --primary-color: #000000;
     --secondary-color: rgb(255, 240, 240);
-    --complimentary-color: #2E2473;
+    --complimentary-color: #e8e8e8;
   }
   
   .container {
     font-family: 'Gaegu', cursive;
-    min-height: 150vh;
+    min-height: 100vh;
     position: relative;
     width: 100vw;
     top: -100px;
@@ -183,6 +183,28 @@ label{
     transform: translateY(-1000px);
     animation: 1.2s slideIn ease-in-out forwards 1s;
   }
+
+  img[class="tite_image_hansol_1"]
+  {
+
+    border-radius: 70%;
+    position: relative; 
+    top: 50px; 
+    left: 100px
+  
+
+
+  }
+
+
+
+
+
+
+
+
+
+
 
  
 audio {
@@ -565,5 +587,4 @@ input[class="input_form"]
   height: 500px;
   background-color: grey;
 }
-
 

@@ -41,11 +41,11 @@ header{
   }
   
   .btn2:hover{
-    color:rgb(0, 3, 8);  
+    color:rgb(255, 255, 255);  
   }
   .btn2:hover::before{
     opacity: 1;
-    background-color: rgb(255, 212, 212);
+    background-color: #494949;
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
     transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
