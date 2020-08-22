@@ -6,6 +6,7 @@
   .timeline {
     position: relative;
     max-width: 1000px;
+    right:5px;
     
     
   }
@@ -14,8 +15,6 @@
   .timeline::after {
     content: '';
     position: absolute;
-    align-content: left;
-    align-self: left;
     width: 6px;
     background-color: rgb(112, 112, 112);
     top: 0;

@@ -245,3 +245,21 @@ div[class="main_project"]{
   
 
 }
+
+
+span[class="test_box"]
+{
+
+  width: 500px;
+  height: 80px;
+  margin: 10px auto;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Open San', sans-serif;
+  font-weight: 700;
+  font-size: larger;
+  padding: 15px;
+
+
+}
+
