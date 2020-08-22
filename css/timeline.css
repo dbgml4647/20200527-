@@ -5,7 +5,7 @@
   /* The actual timeline (the vertical ruler) */
   .timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
   }
   
@@ -14,7 +14,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: rgb(255, 212, 212);
+    background-color: rgb(112, 112, 112);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -37,7 +37,7 @@
     height: 25px;
     right: -17px;
     background-color: rgb(253, 253, 253);
-    border: 4px solid #f7d0d0;
+    border: 4px solid #000000;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -92,6 +92,7 @@
     background-color: rgb(255, 247, 247);
     position: relative;
     border-radius: 6px;
+    
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -106,14 +107,15 @@
       width: 100%;
       padding-left: 70px;
       padding-right: 25px;
+      
     }
   
   /* Make sure that all arrows are pointing leftwards */
     .time_container::before {
       left: 60px;
-      border: medium solid rgb(255, 255, 255);
+      border: medium solid rgb(0, 0, 0);
       border-width: 10px 10px 10px 0;
-      border-color: transparent rgb(253, 231, 231) transparent transparent;
+      border-color:  rgb(12, 0, 0) ;
     }
   
   /* Make sure all circles are at the same spot */
