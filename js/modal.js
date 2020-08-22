@@ -1,7 +1,3 @@
-
-//여기서 프로젝트 아이디를 뽑아야한다 
-
-
 function reply_click(clicked_id)
 {
     

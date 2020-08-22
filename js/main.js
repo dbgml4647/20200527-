@@ -35,10 +35,13 @@ else
 }
 */
 function zoomIn(event) {
-    event.target.style.transform = "scale(1.5)";
+    event.target.style.transform = "scale(1.03)";
     event.target.style.zIndex = 0;
     event.target.style.transition = "all 0.3s";
     
+    var project = Document.getElementById("ability_block");
+    
+   
     
 
   }

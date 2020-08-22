@@ -6,7 +6,9 @@
 <link rel="stylesheet" type="text/css" href="../css/main.css"> 
 <link rel="stylesheet" type="text/css" href="../css/button.css"> 
 <link rel="stylesheet" type="text/css" href = "../css/timeline.css">
-
+<link rel="stylesheet" type="text/css" href = "../css/modal.css">
+<link rel="stylesheet" type="text/css" href = "../css/Slide.css">
+<link rel="stylesheet" type="text/css" href = "../css/title.css">
 
 
 <!--웹 폰트 적용-->
@@ -51,11 +53,16 @@
 <img class="tite_image_hansol_1" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\한솔 수정.jpg" alt=" " width = 400, height= 400>
 </div>
 
+
 <!--Main title-->
 <h1> 안녕하세요? 저는 컴퓨터를 사랑하는 "류" 입니다! </h1>
 <br><br><br>
 <div id = "ability" class = 'container'> 
-<div class="ability_block">
+<br>
+<div class="ability_block" 
+     onmouseenter="zoomIn(event)"
+     onmouseleave="zoomOut(event)"
+      >
 <h1 class="ability_text"> OS 와 Framework</h1>
 <br>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\windows.jpg" alt=" " width = 100, height= 100>
@@ -104,14 +111,20 @@
 </div>
 
 <!--Time Line-->
-<h1> 먼저 제가 살아온 삶은요...  </h1>
+<h1> My Life ~  </h1>
 <br>
 <div id= "history" class="timeline">
-  <div class="time_container left">
+<div class="time_container left">
+    <div class="time_content"
+    <h2>2016</h2>
+    </div>
+    </div>
+  <div class="time_container right">
     <div class="time_content"
         onMouseOver="this.style.backgroundColor='rgb(250, 225, 225)';" 
         onMouseOut="this.style.backgroundColor=''">
       <h2>2016</h2>
+      <br>
       <p>금오공과대학교 컴퓨터공학과 입학</p>   
       <p>신입생 비교과 활동 - 교내 합창단</p>
       <p> 교내 과 동아리 - 학술 동아리 멘티 </p>
@@ -121,10 +134,9 @@
 
   <div class="time_container right">
     <div class="time_content"
-        onMouseOver="this.style.backgroundColor='rgb(250, 225, 225)';" 
-        onMouseOut="this.style.backgroundColor=''">
+      >
       <h2>2017</h2>
-       <p>포항시 장학회 장학생 선발</p>   
+      <p>포항시 장학회 장학생 선발</p>   
       <p>한동대학교 - 머신러닝, 음성인식, 증강현실 캠프 참가</p>
       <p> 교내 과 동아리 - 농구 동아리 Macro 팀원 </p>
       <p> <mark class = "mark_blue"> CLI 8퍼즐 프로그램 개발</mark> </p>
@@ -132,7 +144,7 @@
     </div>
   </div>
 
-    <div class="time_container left">
+    <div class="time_container right">
     <div class="time_content"
          onMouseOver="this.style.backgroundColor='rgb(250, 225, 225)';" 
          onMouseOut="this.style.backgroundColor=''">
@@ -180,7 +192,7 @@
   </div>
 
 
-    <div class="time_container left">
+    <div class="time_container right">
     <div class="time_content"
          onMouseOver="this.style.backgroundColor='rgb(250, 225, 225)';" 
          onMouseOut="this.style.backgroundColor=''">
