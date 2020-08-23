@@ -52,14 +52,12 @@
 <div id="title" class = 'container'>
 <img class="tite_image_hansol_1" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\한솔 수정.jpg" alt=" " width = 400, height= 400>
 <br><br><br><br><br><br><br><br><br><br>
-<h1 class="title_text">Hi! Welcome! <mark>My Profile Homepage!</mark> <br> <mark class="mark_blue"> Im Front-end developer,Yuhee!</mark>
+<h1 class="title_text">Hi! Welcome! <mark>This is a My Profile Homepage!</mark> <br> <mark class="mark_blue"> Im Front-end developer,Yuhee!</mark>
  <br> <p>#컴퓨터재밌어 #성장하는개발자 #협업과소통 <p> #설계는왼손으로 #개발은양손으로 #노는인간유희</h1>
 </div>
 
 
 <!--Main title-->
-<h1> 안녕하세요? 저의 프로필을 봐주셔서 감사합니다! </h1>
-<br><br><br>
 <div id = "ability" class = 'container'> 
 <br>
 <div class="ability_block" 
@@ -73,21 +71,25 @@
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\android.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\springboot.jpg" alt=" " width = 100, height= 100>
 <br><br>
-<p> 대학교 4년 동안, 다양한 운영체제를 접하며 개발 능력을 키워왔습니다!
+<p> 대학교 4년 동안, 다양한 운영체제를 접했습니다!
 </div>
 <br><br>
 
-<div class="ability_block">
+<div class="ability_block"
+    onmouseenter="zoomIn(event)"
+     onmouseleave="zoomOut(event)">
 <h1 class="ability_text">Algorithm Skills</h1>
 <br>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\java.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\python.jpg" alt=" " width = 100, height= 100>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\c.jpg" alt=" " width = 100, height= 100>
 <br><br>
-<p> C언어, 자바, 파이썬 등 기초적인 프로그래밍 언어를 익히면서, 경험을 쌓았습니다. 
+<p> C언어, 자바, 파이썬 등 기초적인 프로그래밍 언어를 익히면서, 개발 경험을 쌓았습니다. 
 </div>
 <br><br>
-<div class="ability_block">
+<div class="ability_block"
+     onmouseenter="zoomIn(event)"
+     onmouseleave="zoomOut(event)">
 <h1 class="ability_text">Front-end Skills</h1>
 <br>
 <img class="lan_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\language\html.jpg" alt=" " width = 100, height= 100>
@@ -98,7 +100,9 @@
 <p> <mark>프론트 계열은 제가 가장 사랑하는 분야이자, 가장 자신 있는 부분이기도 합니다!</mark>  
 </div>
 <br><br>
-<div class="ability_block">
+<div class="ability_block"
+    onmouseenter="zoomIn(event)"
+     onmouseleave="zoomOut(event)">
 <h1 class="ability_text">Database & Embedded</h1>
 
 
@@ -117,14 +121,15 @@
 
 <span class="test_box" style="clear:both">
 <img class="test_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\icons\history.png" alt=" " width = 50, height= 50>
-<span>저의 인생은 어떤가요? </span>
+<img class="test_pic" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\icons\history.png" alt=" " width = 50, height= 50>
 <img class="test_pic_2" src="C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\icons\history.png" alt=" " width = 50, height= 50>
 </span>
 <br>
+
 <div id= "history" class="timeline">
   <div class="time_container right">
     <div class="time_content"
-        onMouseOver="this.style.backgroundColor='rgb(250, 225, 225)';" 
+        onMouseOver="this.style.backgroundColor='#ffebd2';" 
         onMouseOut="this.style.backgroundColor=''">
       <h2>2016</h2>
       <br>
@@ -137,6 +142,8 @@
 
   <div class="time_container right">
     <div class="time_content"
+      onMouseOver="this.style.backgroundColor='#ffebd2';" 
+        onMouseOut="this.style.backgroundColor=''"
       >
       <h2>2017</h2>
       <p>포항시 장학회 장학생 선발</p>   
@@ -149,8 +156,8 @@
 
     <div class="time_container right">
     <div class="time_content"
-         onMouseOver="this.style.backgroundColor='rgb(250, 225, 225)';" 
-         onMouseOut="this.style.backgroundColor=''">
+          onMouseOver="this.style.backgroundColor='#ffebd2';" 
+        onMouseOut="this.style.backgroundColor=''">
       <h2>2018</h2>
       <p> <mark class = "mark_blue">교내 인공지능 연구실 입사 & Gitlab 협업 </mark></p>
       <p> 교내 Special Interest Group 연구 활동 참가 </p>
@@ -170,8 +177,8 @@
 
     <div class="time_container right">
     <div class="time_content"
-         onMouseOver="this.style.backgroundColor='rgb(250, 225, 225)';" 
-         onMouseOut="this.style.backgroundColor=''">
+          onMouseOver="this.style.backgroundColor='#ffebd2';" 
+        onMouseOut="this.style.backgroundColor=''">
 
       <h2>2019</h2>
       <p> 기상기후 산업 청년 창업 지원사업 “비움”아이템으로 참가 </p>
@@ -197,8 +204,8 @@
 
     <div class="time_container right">
     <div class="time_content"
-         onMouseOver="this.style.backgroundColor='rgb(250, 225, 225)';" 
-         onMouseOut="this.style.backgroundColor=''">
+          onMouseOver="this.style.backgroundColor='#ffebd2';" 
+        onMouseOut="this.style.backgroundColor=''">
       <h2>2020</h2>
       <p> <mark class="mark_blue">(02)금오공과대학교 컴퓨터공학과 졸업</mark> </p>
       <p> (02) 3주 일본 간사이 지역 & 나고야 홀로 여행 </p>
@@ -275,7 +282,7 @@
          onmouseenter="hover_in(event)"
          onmouseleave="hover_out(event)"
          onmousedown="reply_click(this.id)">
-    <h2>지역선도대학 육성 사업 SIG - 음성인식 조명 시스템 개발</h2>
+    <h2>지역선도대학 육성 사업-음성인식 조명 시스템 개발</h2>
     <img class="project_img" 
          src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\칼디 발표 2.jpg" 
          alt=""
@@ -448,8 +455,9 @@
 <!-- 4. contact-->
 <div id = "contact">
    <div class="reference">
-    <a href =  "https://blog.naver.com/dbgml4647"><h3>Blog</h3></a> <!--타이틀-->
+    <a href =  "https://blog.naver.com/dbgml4647"><h3 class="reference_title"><mark class="mark_blue"> Blog </mark></h3></a>
     <img class= "reference_pic2" src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\블로그.jpg" alt=""width = 800, height= 500>
+    <a href =  "https://github.com/dbgml4647"><h3 class="reference_title"><mark class="mark_blue">Github</mark></h3></a>
     <img class= "reference_pic3" src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\github.jpg" alt=""width = 800, height= 500>
 </div>
 </div>
@@ -464,13 +472,23 @@
   <div class="modal-content">
     <span class="project_img_1_close">&times;</span>
     <p>
-    한이음 ICT 멘토링 AI 기반 챗봇 여행지 추천 서비스 개발
-    <br>
+     <mark style=font-size:30px>한이음 ICT 멘토링 AI 기반 챗봇 여행지 추천 서비스 개발</mark>
+    <br> <br>
     <img class="project_img" 
         src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\한이음.jpg"
         width = 350, 
         height= 250 
     > 
+    <br>
+     <mark class="mark_blue">⊙ 나의 기여도  : 40%, 프로젝트 기간 : 2019.09~2019.12(5개월)</mark>
+    <br>
+      ⊙ Bootstarp을 기반으로 HTML,CSS,JS를 변경하여 Front단 UI제작
+    <br>
+      ⊙ Google API - Dialogflow API를 사용하여, 사용자 입력에 따른 대답 설계
+    <br>
+      ⊙ Spring boot- java 기반, 백앤드 40% 설계
+    <br>
+      ⊙ 그 외 MongoDB, AWS 사용, Agile 방식 개념 익힘
     </p>
   </div>
 </div>
@@ -481,7 +499,7 @@
   <div class="modal-content">
     <span class="project_img_2_close">&times;</span>
     <p> 
-    데이터베이스 강의 - 술 게시판 개발
+   <mark style=font-size:30px> 데이터베이스 강의 - 술 게시판 개발</mark>
     <br>
     <img class="project_img" 
         src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\데이터베이스 전체.jpg" 
@@ -498,7 +516,7 @@
   <div class="modal-content">
     <span class="project_img_3_close">&times;</span>
     <p>
-    대구 글로벌 이노베이션 페스타 참가- gazebo를 이용한 로봇 개발
+    <mark style=font-size:30px>대구 글로벌 이노베이션 페스타 참가- gazebo를 이용한 로봇 개발</mark>
     <br>
     <img class="project_img" 
         src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\메이커톤 사진.jpg" 
@@ -515,7 +533,7 @@
   <div class="modal-content">
     <span class="project_img_4_close">&times;</span>
     <p>
-    지역선도대학 육성 사업 SIG - 음성인식 조명 시스템 개발
+    <mark style=font-size:30px>지역선도대학 육성 사업- 음성인식 조명 시스템 개발</mark>
     <br>
     <img class="project_img" 
         src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\칼디 발표 2.jpg" 
@@ -532,7 +550,7 @@
   <div class="modal-content">
     <span class="project_img_5_close">&times;</span>
     <p>
-    캡스톤 디자인 - 반려동물 케어를 위한 어플리케이션
+    <mark style=font-size:30px>캡스톤 디자인 - 반려동물 케어를 위한 어플리케이션</mark>
     <br>
      <img class="project_img" 
         src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\캡스톤 전체.jpg" 
@@ -549,7 +567,7 @@
   <div class="modal-content">
     <span class="project_img_6_close">&times;</span>
     <p>
-    기상기후 청년 사업 - 아이디어 공모전
+    <mark style=font-size:30px>기상기후 청년 사업 - 아이디어 공모전</mark>
     <br>
     <img class="project_img" 
       src = "C:\Users\김민규\Desktop\졸업후\블로그업로드\HTML+CSS\images\project\비움.jpg" 

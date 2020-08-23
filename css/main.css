@@ -9,7 +9,7 @@ html{
 
 body{
   
-  background-color : rgb(255, 255, 255);
+  background-color : #feffe4;
   opacity: 0.9;
   text-align: center;
   padding-top: 75px;
@@ -197,12 +197,12 @@ div.project_block_6{
 }
 
 
-h1[class="reference_title"]
+h3[class="reference_title"]
 {
 
   font-size: larger;
-  font-family: 'Open San', sans-serif;
-  font-weight: 100;
+  font-family: 'Gaegu', cursive;
+  font-weight: 700;
 }
 
 div.reference{
@@ -210,6 +210,7 @@ div.reference{
 
   padding: 30px;
   margin: 30px;
+  display: inline-block;
 
 
 }

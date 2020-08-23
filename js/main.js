@@ -39,9 +39,6 @@ function zoomIn(event) {
     event.target.style.zIndex = 0;
     event.target.style.transition = "all 0.3s";
     
-    var project = Document.getElementById("ability_block");
-    
-   
     
 
   }
