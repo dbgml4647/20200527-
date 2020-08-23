@@ -27,11 +27,11 @@
     font-size: 30px;
     font-family: 'Gaegu', cursive;
     color: var(--primary-color);
-    transform: translateY(-500px);
+    /*transform: translateY(-500px);
     animation: 1.2s slideIn ease-in-out forwards 1s;
     z-index: 10;
     opacity: 0;
-    position: relative;
+    position: relative;*/
   }
   
   h1[class="title_text"]::before {
